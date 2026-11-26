@@ -1,5 +1,13 @@
 # gptr Agent
 
+> **gptr Agent has moved into gptr.** From gptr 1.3.0 the bridge lives in the
+> [`gptragent/` folder of Broccolito/gptr](https://github.com/Broccolito/gptr/tree/main/gptragent)
+> and is released with gptr: each gptr release on
+> [github.com/Broccolito/gptr/releases](https://github.com/Broccolito/gptr/releases) carries
+> `gptragent.brxt`. The same folder is also a Claude Code and Codex plugin. This repository is
+> archived; its 0.1.x releases stay available. Reinstall gptr Agent from Biorouter's marketplace
+> to follow gptr's releases.
+
 Work inside an R session you already have open. Biorouter inspects, analyses, plots and fixes
 objects in memory through [gptr](https://github.com/Broccolito/gptr), without reloading data.
 Every call passes gptr's permission settings.
